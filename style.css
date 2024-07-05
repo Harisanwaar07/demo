@@ -1,0 +1,62 @@
+#clock{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+height: 400px;
+background-color: #F3F3F3;
+border: 3.45px 0px 0px 0px solid black;
+
+
+}
+#hour-div{
+    position: relative;
+    width: 344.83px;
+height: 344.83px;
+background-size: cover;
+background-image: url(max-circle.png);
+opacity: 0.2px;
+
+}
+#min-div{
+    position: relative;
+    width: 344.83px;
+height: 344.83px;
+background-size: cover;
+background-image: url(min-circle.png);
+opacity: 0px;
+
+}
+#hand-hour{
+    position: relative;
+    width: 127.59px;
+height: 125.85px;
+top: 70px;
+left: 70px;
+background-size: cover;
+background-image: url(hand-hour.png);
+
+}
+#hand-min{
+    position: relative;
+       width: 117.59px;
+height: 115.85px;
+top: -40px;
+    left: 160px;
+    background-size: cover;
+    background-image: url(minutes.png);
+    
+
+}
+#hand-sec{
+    position: relative;
+    width: 8.32px;
+    height: 197.75px;
+    top: 70px;
+    left: 70px;
+    background-size: cover;
+    background-image: url(mini-sec.png);
+    
+
+}
